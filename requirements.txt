@@ -1,0 +1,55 @@
+langchain
+langchain-huggingface
+langchain_community
+langchain_ollama
+langchain_groq
+faiss-cpu
+python-dotenv
+requests
+fastapi
+pypdf
+
+
+
+
+# "Authorization": "eyJhbGciOiJBMTI4S1ciLCJlbmMiOiJBMTI4Q0JDLUhTMjU2In0.CgByx1MVUqjssxAW7IG0ymm6-qRpdPFtoEexYqcw22Gn2mLu3vIZ1A.2SjUidiSf0kKQAc4xwhaAg.Zh0_CJ8TaxiXm2n8avS-V0uOP0wMbcMuQc6Deb4zVKuxeL31NLbrTaFgjmxRDufMIE5MYZqyj9twJuOXJJUH5HJUH73GplG3F0-of8q8FY5bUwmwnhtiXYq4tkP_XIH1A9rtX46Ke_S2AOUJsrISVQinq8wbabKVM5o7zEsFCbRM9W2PHE_8M2pG8tD_q_A8.M0scFJRl1VjsJGUXrP2rgQ"  // Add the Bearer token for authorization
+
+field_prompt = """
+The user wants to fill in a payload with values. For each field, you need to ask the user for the value, one at a time. Your task is to guide the user to enter a value for each field in the payload. 
+
+The fields are as follows:
+- field1: A unique identifier for the user.
+- field2: The user's email address.
+- field3: The user's phone number.
+
+For each field:
+1. Ask the user to enter a value for the field.
+2. If the user does not provide a value, leave it blank.
+3. Ensure that you prompt for each field separately, and do not ask for more than one field at a time.
+
+Start by asking for the value of `field1`, and once you get the input, move on to `field2` and then `field3`.
+
+Please ensure that you only ask for one field at a time and wait for the user’s response before asking for the next field.
+"""
+
+
+
+
+
+curl -X 'POST' 'http://127.0.0.1:8000/next-question' \
+     -H 'Content-Type: application/json' \
+     -d '{"query": "create task", "answer": "2"}'   
+
+curl -X 'POST' 'http://127.0.0.1:8000/start-task' \
+     -H 'Content-Type: application/json' \
+     -d '{"query": "get create task"}' 
+
+curl -X 'POST' 'http://127.0.0.1:8000/start-task' \
+     -H 'Content-Type: application/json' \
+     -d '{"query": "get requested tickets"}'
+
+curl -X 'POST' 'http://127.0.0.1:8000/chat' \      
+     -H 'Content-Type: application/json' \
+     -d '{"session_id": "1", "user_query": "how many tasks are assigned?"}'
+
+     
