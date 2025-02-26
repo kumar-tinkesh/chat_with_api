@@ -1,0 +1,30 @@
+iPhone User Guide
+Setup basics
+iPhone has an easy setup process to help you get going when you first turn on your device. Whether you’re just getting started or want to make sure you have the basics set up, you’re in the right place.
+Transfer your apps and info onto your new iPhone
+When you first turn on your iPhone and begin the setup process, you can wirelessly transfer many of your apps, settings, and content from your previous iPhone directly to your new iPhone—just bring the two devices close together, then follow the onscreen instructions.
+Set up cellular service and connect to Wi-Fi
+Depending on your model, use an eSIM from your carrier or install a physical SIM card to connect to your cellular network. To check if your iPhone is connected to your cellular plan, go to Settings > Cellular.
+To connect your iPhone to your home Wi-Fi network, go to Settings > Wi-Fi, turn on Wi-Fi, then choose your network. iPhone automatically connects to your Wi-Fi network whenever you’re home.
+Sign in to your Apple Account
+You use your Apple Account to access Apple services such as the App Store, the iTunes Store, Apple Books, Apple Music, FaceTime, iCloud, iMessage, and more.
+To sign in to your Apple Account, go to Settings > Apple Account. If you have an iPad (with iPadOS 17 or later) or another iPhone (with iOS 17 or later), you can simply bring your iPhone near your other device. Otherwise, you can manually sign in. To verify that you’re signed in, go to Settings > [ your name ]; your Apple Account appears below your name.
+Set up Face ID or Touch ID
+You can use Face ID (face recognition) or Touch ID (your fingerprint) to securely unlock your iPhone, sign in to many apps, and make purchases. For your security, Face ID and Touch ID data doesn’t leave your device and isn’t saved anywhere else.
+Depending on your iPhone model, do one of the following:
+Set up Face ID: Go to Settings > Face ID & Passcode, tap Set up Face ID, then follow the onscreen instructions.
+Set up Touch ID: Go to Settings > Touch ID & Passcode, tap Add a Fingerprint, then follow the onscreen instructions.
+Turn on Find My iPhone
+You can locate your iPhone if it’s ever lost or stolen.
+Go to Settings > [ your name ] > Find My, tap Find My iPhone, then turn on Find My iPhone. You can see the location of your devices in the Find My app . If you lose your iPhone and don’t have access to the Find My app, you can locate your device using Find My on iCloud.com.
+Store your data in iCloud
+iCloud helps you keep your important info safe and in sync across your devices. If you replace or lose your iPhone, or it’s damaged or stolen, your photos, videos, and more remain secure in iCloud.
+To turn on or change the features you want to use with iCloud, go to Settings > [ your name ] > iCloud.
+Want to learn more?
+Turn on and set up iPhone
+Set up cellular service
+Connect iPhone to the internet
+Set up Face ID on iPhone
+Locate a device in Find My
+Use iCloud on iPhone
+Apple Footer
